@@ -6,7 +6,7 @@ export default function About() {
     return (
         <Layout>
             <br></br>
-            <Header headerText="A Little About Me" />
+            <Header headerText="a little about me" />
         </ Layout>
     )
 }

@@ -6,7 +6,7 @@ export default function MyRandomPic() {
     return (
         <Layout>
             <br></br>
-            <Header headerText="Look, it's a random picture!" />
+            <Header headerText="look, it's a random picture!" />
             <img 
                 src="https://picsum.photos/500/700"
                 alt="A placeholder for something more to come!"

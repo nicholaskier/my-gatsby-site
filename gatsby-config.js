@@ -5,7 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "My Portfolio",
+    author: "Nicholas Kier",
+    description: "The best portfolio you've ever seen.",
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-typography',
