@@ -10,6 +10,7 @@ export default function NavBar() {
             <Link to='/contact'>Contact</Link>
             <Link to='/about'>About</Link>
             <Link to='/my-random-pic'>Get a pic!</Link>
+            <Link to='/my-posts'>View Posts</Link>
         </nav>
     )
 }

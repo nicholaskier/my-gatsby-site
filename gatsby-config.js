@@ -16,6 +16,14 @@ module.exports = {
       options: {
         pathToConfigModule: 'src/utils/typography'
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'gnotes',
+        path: `${__dirname}/src/data/posts`,
+      },
+    },
+    "gatsby-transformer-remark",
   ],
 }
